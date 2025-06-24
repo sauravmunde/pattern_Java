@@ -1,13 +1,15 @@
-public class MirrorImage_Pattern {
+public class MirrorImageNum_Pattern {
     public static void main(String[] args) {
 
         int i = 1;
         int n = 4;
+
         while (i <= n) {
             int spaces = 1;
             while (spaces <= n - i) {
                 System.out.print(' ');
-                spaces++;
+                spaces = spaces + 1;
+
             }
             int stars = 1;
             while (stars <= i) {
@@ -19,4 +21,5 @@ public class MirrorImage_Pattern {
             i++;
         }
     }
+
 }
