@@ -13,7 +13,8 @@ public class MirrorImageNum_Pattern {
             }
             int stars = 1;
             while (stars <= i) {
-                System.out.print(i);
+                System.ou t.print(i);
+
                 stars++;
 
             }

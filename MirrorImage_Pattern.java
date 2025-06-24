@@ -11,7 +11,7 @@ public class MirrorImage_Pattern {
             }
             int stars = 1;
             while (stars <= i) {
-                System.out.print(i);
+                System.out.print("*");
                 stars++;
 
             }
